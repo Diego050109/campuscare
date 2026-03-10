@@ -2,5 +2,27 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./auth-service"
+    },
+    {
+      "path": "./api-gateway"
+    },
+    {
+      "path": "./user-service"
+    },
+    {
+      "path": "./appointment-service"
+    },
+    {
+      "path": "./schedule-service"
+    },
+    {
+      "path": "./notification-service"
+    },
+    {
+      "path": "./report-service"
+    }
+  ]
 }
